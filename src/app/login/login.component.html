@@ -1,0 +1,24 @@
+<div class="card" id="login-form">
+    <h5 class="card-header info-color white-text text-center py-4">
+        <strong>Inicio de sesión</strong>
+    </h5>
+
+    <div class="card-body px-lg-5">
+
+        <form class="text-center" style="color: #757575;" (submit)="verifyUser()">
+            <p style="color: slategrey;">Ingrese al mejor Prode para la Copa América 2020!</p>
+
+            <div class="md-form mt-3">
+                <input name="username" type="text" id="materialSubscriptionFormPasswords" [(ngModel)]="username" class="form-control" placeholder="Usuario">
+            </div>
+            <br/>
+            <div class="md-form">
+                <input name="password" type="password" id="materialSubscriptionFormEmail" [(ngModel)]="password" class="form-control" placeholder="Contraseña">
+            </div>
+
+            <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">
+                Ingresar
+            </button>
+        </form>
+    </div>
+</div>
