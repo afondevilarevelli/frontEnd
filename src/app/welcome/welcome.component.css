@@ -1,3 +1,16 @@
 h1{
     text-align: center;
 }
+
+img{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    margin-top: 1%;
+    clip-path: ellipse();
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}

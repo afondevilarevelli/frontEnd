@@ -1,8 +1,22 @@
 .card{
     width: 30%!important;
     position: relative;
-    left: 69.7%;
+    left: 30%;
     padding-top: 0%;
     margin-top: 0%;
-    transform: translateY(-1%);
+    transform: translateY(-1.1%);
+}
+
+img{
+    width: 40%;
+    height: 40%;
+    border-radius: 3%;
+    position: relative;
+    margin-top: 5.99%;
+    left:15%;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
 }
